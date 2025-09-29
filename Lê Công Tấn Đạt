@@ -1,3 +1,6 @@
+HỌ và tên: Lê Công Tấn Đạt
+MSSV: 25119068
+
 # Máy tính cơ bản: Cộng, Trừ, Nhân, Chia
 
 def may_tinh():
@@ -31,3 +34,4 @@ def may_tinh():
 
 # Gọi hàm
 may_tinh()
+
