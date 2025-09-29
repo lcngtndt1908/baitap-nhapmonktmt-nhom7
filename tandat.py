@@ -1,0 +1,33 @@
+# Máy tính cơ bản: Cộng, Trừ, Nhân, Chia
+
+def may_tinh():
+    print("=== MÁY TÍNH CƠ BẢN ===")
+    print("Chọn phép toán:")
+    print("1. Cộng (+)")
+    print("2. Trừ (-)")
+    print("3. Nhân (*)")
+    print("4. Chia (/)")
+
+    # Người dùng chọn phép toán
+    choice = input("Nhập lựa chọn (1/2/3/4): ")
+
+    # Nhập hai số
+    a = float(input("Nhập số thứ nhất: "))
+    b = float(input("Nhập số thứ hai: "))
+
+    if choice == '1':
+        print(f"{a} + {b} = {a + b}")
+    elif choice == '2':
+        print(f"{a} - {b} = {a - b}")
+    elif choice == '3':
+        print(f"{a} * {b} = {a * b}")
+    elif choice == '4':
+        if b != 0:
+            print(f"{a} / {b} = {a / b}")
+        else:
+            print("Lỗi: Không thể chia cho 0!")
+    else:
+        print("Lựa chọn không hợp lệ!")
+
+# Gọi hàm
+may_tinh()
